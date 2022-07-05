@@ -8,10 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var startButton: UIButton!
+    @IBOutlet var textFieldEmail: UITextField!
+    @IBOutlet var textFieldMdP: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+       
     }
 
 

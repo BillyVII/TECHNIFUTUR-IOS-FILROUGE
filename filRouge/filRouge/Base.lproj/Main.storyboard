@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="70" id="WrF-GW-BTf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yog-G5-grn">
                                 <rect key="frame" x="20" y="720" width="374" height="70"/>
@@ -66,6 +66,11 @@
                             <constraint firstItem="YRj-sp-bOc" firstAttribute="top" secondItem="7Oi-xW-zSx" secondAttribute="bottom" constant="10" id="rRN-OG-Eg5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="startButton" destination="yog-G5-grn" id="6QE-iE-Tup"/>
+                        <outlet property="textFieldEmail" destination="YRj-sp-bOc" id="m7C-R1-LkP"/>
+                        <outlet property="textFieldMdP" destination="WEB-bv-qDN" id="Z21-U7-40T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
